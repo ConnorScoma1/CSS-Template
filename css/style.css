@@ -7,10 +7,12 @@ Dark green: #28b485
 
 */
 
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 html {
@@ -24,6 +26,8 @@ body {
     line-height: 1.7;
     color: #777;
     padding: 3rem;
+    box-sizing: border-box;
+
 }
 
 
@@ -197,5 +201,21 @@ body {
     }
     100% {
         transform: rotateY(0deg);
+    }
+}
+
+/* 
+================================= Media Keys ================================
+*/
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 30%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        padding: 0;
     }
 }
