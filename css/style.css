@@ -1,10 +1,5 @@
 /*
-COLORS:
-
-Light green: #7ed56f
-Medium green: #55c57a
-Dark green: #28b485
-
+=================================== Parent Resets =================================
 */
 
 *,
@@ -30,6 +25,9 @@ body {
 
 }
 
+/*
+=================================== Heading Background // Landing Page =================================
+*/
 
 .header {
     height: 95vh;
