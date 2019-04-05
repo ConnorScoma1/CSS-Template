@@ -136,6 +136,37 @@ body {
     opacity: 0;
 }
 
+.about {
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom,
+        #ff2a00af,
+        #ffc400af ),
+        url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    clip-path: polygon(0 25%, 100% 0, 100% 50%, 0 75%)
+}
+
+.about-page {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-heading {
+    color: white;
+    font-family: lato;
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+
 /* 
 ================================= Keyframe Animations ================================
 */
