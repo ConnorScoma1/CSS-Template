@@ -150,6 +150,10 @@ body {
     clip-path: polygon(0 25%, 100% 0, 100% 50%, 0 75%)
 }
 
+/* 
+================================= About Page ================================
+*/
+
 .about-page {
     position: absolute;
     top: 40%;
